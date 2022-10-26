@@ -1,27 +1,22 @@
 .navbar{
     background-color: black;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-end;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    
 }
 .container{
    padding: 0px;
-   margin-right: 75px; 
+
 }
-.nav.item{
+.nav-item{
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    color: white;
-    
-    
+    padding: 0px 40px; 
 }
-
+.nav-link a:hover{
+    color: coral;
+}
+    
 
 /*
 font-family: 'Lato', sans-serif;
