@@ -81,7 +81,7 @@ li.border{
     
 }
 img{
-    z-index: -1;
+    $zindex-modal: 1055;
 }
 
 .bg_challenge{
@@ -122,8 +122,7 @@ padding-top: 20px;
 
 .approach{
     background-color: black;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    
     color: white;
     z-index: -1;
 }
@@ -164,6 +163,13 @@ li.reasearchAnalysis{
     padding: 5px;
     
 }
+.greenBox{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    background-color: #006F6D;
+    margin-top: -80;
+}
 .quote{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -171,10 +177,11 @@ li.reasearchAnalysis{
     display: flex;
     color: #ffffff;
     justify-content: center;
-    margin-bottom: -10px;
+    padding: 60px;
+    
 }
 .bgGreyBlock{
-    height: 250px;
+    height: 350px;
     display: block;
     background-color: #D3D1D1;
     padding: 75px;
@@ -182,21 +189,19 @@ li.reasearchAnalysis{
     margin-right: 20px;   
 }
 .bgGreyBlock .container{ 
-    align-content: center;
-    
+    align-content: center;   
 }
 .bgGreyBlock p{
     display: flex;
     align-items: flex-end;
+    align-content: center;
 }
 li.solution{
     color: #DC6523;
-    display: flex;
-    
+    display: flex;    
 }
 .firstWord{
     color: black;
-
 }
 li.solution.container{
     padding-top: -20;
