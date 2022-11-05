@@ -227,11 +227,26 @@ li.deliverables{
     background-color: #000000;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.previous_next{
+    padding: 20px;
+    margin-top: 40px;
+
+}
+
 footer.navbar-nav{
     background-color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
 
