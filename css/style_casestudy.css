@@ -243,7 +243,6 @@ li.deliverables{
 .arrow :hover{
     color: coral !important; 
 }
-
 footer.navbar-nav{
     background-color: #000000;
     display: flex;
@@ -253,7 +252,6 @@ footer.navbar-nav{
 footer{
     text-align: center;
 }
-
 footer a{
     color:black; 
     text-decoration: none;
@@ -262,16 +260,22 @@ footer a{
     font-size: 1.25rem;
     font-weight: 400; 
 }
-
 footer a:active{
     color: coral !important; 
     
 }
-
 footer a:hover{
     color: coral !important;
 }
-
+.text-center{
+    display: flex;
+    font-size: 10px;
+    padding-left: 20px;
+    justify-content: flex-end;
+}
+.orange{
+    color: #DC6523;
+}
 
   /* rem divide number by 16 */
    
