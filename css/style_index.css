@@ -33,6 +33,7 @@ body{
 }
 .hero{ 
     padding-top: 30px;
+    margin-top: 40px;
 }
 .heroContent{
     
@@ -64,12 +65,15 @@ section{
 
 .bgGrey{
     background-color: #D3D1D1;
+    margin-left: 68px;
+    margin-right: 68px;
 }
 
 .bgGrey .container{ 
     align-content: center;
     padding-top: 75px;
     padding-bottom: 75px;
+    
 }
 .bgGrey h2{
     font-family: 'Montserrat', sans-serif;
@@ -104,6 +108,7 @@ li.uxResearch{
     text-transform:uppercase; 
     
 }
+
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
@@ -111,15 +116,50 @@ li.uxResearch{
     'GRAD' 0,
     'opsz' 48
   }
-  
+
+
+  h5.card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #DC6523;
+
+}
+p .card-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin-right: 40px;
+}  
+
+.card-body{
+   margin-top: 20px;
+    padding: 50px;
+    
+}
+.btn {
+    padding: 5px 30px;
+    background: #0F0F0F;
+    border-radius: 9px;
+    color: #D2EEF0;
+
+}
+a:hover{
+    color: coral !important;
+}
+
   .previous_next{
       padding: 20px;
       margin-top: 40px;
-      background-color:#F4F4F4;
+
+      margin-left: 68px;
+    margin-right: 68px;
   }
   .arrow{
       font-size: 20px;
-      color: #000000;
+      color: white;
   }
   .arrow :hover{
       color: coral !important; 
@@ -127,16 +167,15 @@ li.uxResearch{
   footer.navbar-nav{
       display: flex;
       justify-content: center;
-      align-items: center;    
+      align-items: center; 
+      margin: 20%; 
   }
   footer{
       text-align: center;
-      background-color:#F4F4F4;
-      width: 100%;
-      background-color:#F4F4F4;  
+      
   }
   footer a{
-     color:black;
+     color: white;
       text-decoration: none;
       text-transform:uppercase;
       font-family: 'Lato', sans-serif;
@@ -144,6 +183,7 @@ li.uxResearch{
       font-weight: 400; 
       background-color:#F4F4F4;
   }
+
   footer a:active{
       color: coral !important; 
       
@@ -156,11 +196,18 @@ li.uxResearch{
       font-size: 10px;
       padding-left: 20px;
       justify-content: flex-end;
-      background-color: #F4F4F4;  ;
-      
+      color: black;   
+  }
+  .name{
+    color: white;
   }
   .orange{
       color: #DC6523;
+  }
+
+  i{
+    background-color: black;
+    
   }
  
   
