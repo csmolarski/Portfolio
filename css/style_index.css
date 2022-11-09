@@ -67,6 +67,7 @@ section{
     background-color: #D3D1D1;
     margin-left: 68px;
     margin-right: 68px;
+    border-radius: 4px;
 }
 
 .bgGrey .container{ 
@@ -117,6 +118,9 @@ li.uxResearch{
     'opsz' 48
   }
 
+.butterflyCard{
+ margin-top: 100px;
+}
 
   h5.card-title{
     font-family: 'Montserrat', sans-serif;
@@ -196,18 +200,21 @@ a:hover{
       font-size: 10px;
       padding-left: 20px;
       justify-content: flex-end;
-      color: black;   
+      
   }
   .name{
     color: white;
+    font-size: 15px;
+    font-size: 20px;
+
   }
   .orange{
       color: #DC6523;
+      font-size: 50px;
   }
 
   i{
     background-color: black;
-    
   }
  
   
