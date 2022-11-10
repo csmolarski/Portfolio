@@ -32,13 +32,9 @@ body{
     height: 1412px;
 }
 .hero{ 
-    padding-top: 30px;
-    margin-top: 40px;
+padding: 100px 0px;
 }
-.heroContent{
-    
 
-}
 .hero h1{
     font-family: 'Montserrat', sans-serif;
     text-transform:uppercase;
@@ -65,11 +61,11 @@ section{
 
 .bgGrey{
     background-color: #D3D1D1;
-    margin-left: 68px;
-    margin-right: 68px;
+}
+.aboutArea{
+    padding: 60px;
     border-radius: 4px;
 }
-
 .bgGrey .container{ 
     align-content: center;
     padding-top: 75px;
@@ -79,7 +75,7 @@ section{
 .bgGrey h2{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 40px;
     color: #DC6523;
 
@@ -88,27 +84,20 @@ section{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: black;
     margin-right: 40px;
 }
 
-li.uiSkills{
+.uiSkills, .uxResearch{
+    padding-left: 0;
+}
+.uiSkills li, .uxResearch li{
     font-family: 'Roboto', sans-serif;
-    display: flex;
     color: black;
-    text-decoration: none;
-    text-transform:uppercase; 
+    text-transform: uppercase;
+    list-style: none;
+    font-weight: 700;
+}
 
-}
-li.uxResearch{
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    
-    color: black;
-    text-decoration: none;
-    text-transform:uppercase; 
-    
-}
 
 .material-symbols-outlined {
     font-variation-settings:
@@ -118,7 +107,7 @@ li.uxResearch{
     'opsz' 48
   }
 
-.butterflyCard{
+.caseStudies{
  margin-top: 100px;
 }
 
@@ -180,12 +169,7 @@ a:hover{
   }
   footer a{
      color: white;
-      text-decoration: none;
-      text-transform:uppercase;
-      font-family: 'Lato', sans-serif;
       font-size: 1.25rem;
-      font-weight: 400; 
-      background-color:#F4F4F4;
   }
 
   footer a:active{
@@ -195,11 +179,9 @@ a:hover{
   footer a:hover{
       color: coral !important;
   }
-  .text-center{
-      display: flex;
+  .copyText{
+      text-align: right;
       font-size: 10px;
-      padding-left: 20px;
-      justify-content: flex-end;
       
   }
   .name{
