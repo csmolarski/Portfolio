@@ -1,0 +1,78 @@
+navbar{
+    background-color: black;
+    
+}
+.container{
+   padding: 0px;
+   
+
+}
+.nav-item{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0px 40px; 
+    text-decoration: none;
+    text-transform:uppercase;
+}
+.navbar-nav a:active{
+    color: coral !important; 
+}
+.navbar-nav a:hover{
+    color: coral !important;
+}
+.hero{
+    background-color: #F8BD8D;
+}   
+
+.bgGrey{
+    background-color: #D3D1D1;
+}
+
+.bgGrey .container{ 
+    align-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.bgGrey h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #DC6523;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bgGrey p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-end;
+    background-color: #F8BD8D;
+    background-color: #F8BD8D;
+    color: #F8BD8D;
+    padding: 20px;
+}
+.designthinking .container{
+    background-color: F4F4F4;
+}
+.quote{
+   
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 60px;
+}
+
+.quote .container{
+    background-color: #006F6D;
+    height: 200px;
+  
+
+}
